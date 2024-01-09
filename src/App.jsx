@@ -4,13 +4,13 @@ import { useSelector, useDispatch } from 'react-redux';
 import { getApiConfiguration , getGenres } from "./store/homeslice";
 import {BrowserRouter , Routes , Route} from "react-router-dom";
 
-import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
-import Home from "./pages/home/home";
-import Details from "./pages/details/details";
-import Explore from "./pages/explore/explore";
-import SearchResults from "./pages/searchResults/searchResults";
-import NotFound from "./pages/404/notFound";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Home from "./pages/home/Home";
+import Details from "./pages/details/Details";
+import Explore from "./pages/explore/Explore";
+import SearchResults from "./pages/searchResults/SearchResults";
+import NotFound from "./pages/404/NotFound";
 
 function App() {
   const dispatch = useDispatch();
